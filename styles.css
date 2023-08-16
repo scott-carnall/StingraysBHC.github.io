@@ -141,6 +141,7 @@ ul li:hover ul.dropdown {
 	max-height: 20vh;
 	background-color: #188ABC;
 	right:0;
+	border-top: 5px white;
 }
 
 .sponsorslogos h3 {
