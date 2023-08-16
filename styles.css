@@ -164,6 +164,7 @@ ul li:hover ul.dropdown {
 	align-items: center;
 	max-height: 15vh;
 	background-color: #76273C;
+	margin-top: auto;
 }
 
 .footer .social{
