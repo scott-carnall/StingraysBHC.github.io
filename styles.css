@@ -114,9 +114,17 @@ ul li:hover ul.dropdown {
 .content {
 	height: 68vh;
 	top: 32vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
 	padding: 15px;
 	font-family: 'Poppins', sans-serif;
+}
+
+.content .news {
+	width: 100%;
+	
 }
 
 .content .content-logo {
