@@ -134,11 +134,13 @@ ul li:hover ul.dropdown {
 
 .teams{
 	top: 32vh;
-	display: flex;
-	flex-direction: space-around;
-	align-items: center;
-	width: 90%;
+	display: grid;
+	grid-gap: .5em;
+	grid-template-areas: 
+		"photoOne photoTwo photoThree";
 	padding: 15px;
+	align-items: center;
+	justify-items: center;
 	font-family: 'Poppins', sans-serif;
 	overflow: auto;
 	list-style: none;
@@ -147,10 +149,11 @@ ul li:hover ul.dropdown {
 }
 
 .teams .content-logo {
-	width: 40%;
-	list-style: none;
-	margin: auto;
-	min-height: 40%;
+	border: 2px solid black;
+	border-radius: 5px;
+	max-height: 250px;
+	max-width: 250px;
+	align-items: center;
 }
 
 .a-team {
