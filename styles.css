@@ -112,7 +112,7 @@ ul li:hover ul.dropdown {
 }
 
 .content {
-	height: 72vh;
+	min-height: 72vh;
 	top: 32vh;
 	display: flex;
 	flex-direction: column;
@@ -125,7 +125,7 @@ ul li:hover ul.dropdown {
 
 .content .news {
 	width: 100%;
-	max-height: 72vh;
+	min-height: 72vh;
 	padding-bottom: 5px;
 	overflow: hidden;
 }
