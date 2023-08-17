@@ -112,27 +112,75 @@ ul li:hover ul.dropdown {
 }
 
 .content {
-	min-height: 72vh;
+	min-height: 68vh;
 	top: 32vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	padding: 5px;
+	padding: 15px;
 	font-family: 'Poppins', sans-serif;
 	overflow: hidden;
 }
 
 .content .news {
 	width: 100%;
-	min-height: 72vh;
-	padding-bottom: 5px;
-	overflow: hidden;
+	max-height: 68vh;
 }
 
 .content .content-logo {
 	padding-top: 15px;
 }
+
+.teams{
+	top: 32vh;
+	display: flex;
+	flex-direction: space-around;
+	align-items: center;
+	width: 90%;
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+	overflow: auto;
+	list-style: none;
+	margin: auto;
+	min-height: 68vh;
+}
+
+.teams .content-logo {
+	width: 40%;
+	list-style: none;
+	margin: auto;
+	min-height: 40%;
+}
+
+.a-team {
+	display: grid;
+	grid-gap: .5em;
+	grid-template-areas: 
+		"photoOne photoTwo photoThree photoFour"
+		"photoFive photoSix photoSeven photoEight";
+	grid-template-columns: 25% 25% 25% 25%;
+	padding: 15px;
+	align-items: center;
+	justify-items: center;
+}
+
+.a-team .player-profile {
+	border: 2px solid black;
+	border-radius: 5px;
+	max-height: 250px;
+	max-width: 250px;
+	align-items: center;
+}
+
+.a-team .player-profile .pp-pic {
+	border: 2px solid black;
+	border-radius: 5px;
+	max-height: 250px;
+	max-width: 250px;
+	align-items: center;
+}
+
 
 .sponsorslogos {
 	font-family: 'Poppins', sans-serif;
@@ -143,7 +191,7 @@ ul li:hover ul.dropdown {
 	max-height: 20vh;
 	background-color: #188ABC;
 	right:0;
-	border-top: 5px white;
+	margin-top: auto;
 }
 
 .sponsorslogos h3 {
@@ -221,6 +269,8 @@ ul li:hover ul.dropdown {
 }
 
 
+
+
 @media screen and (max-width:768px) {
 	.nav-links {
 	display: flex;
@@ -254,7 +304,7 @@ ul li:hover ul.dropdown {
 		display: block;
 	}
 	
-		.footer .social{
+	.footer .social{
 	text-align: center;
 	padding-bottom: 15px;
 	color: white;
@@ -274,6 +324,7 @@ ul li:hover ul.dropdown {
 	opacity: 0.65;
 	
 	}
+	
 }
 
 .nav-active {
