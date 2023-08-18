@@ -157,33 +157,33 @@ ul li:hover ul.dropdown {
 }
 
 .a-team {
-	display: grid;
-	grid-gap: .5em;
-	grid-template-areas: 
-		"photoOne photoTwo photoThree photoFour"
-		"photoFive photoSix photoSeven photoEight";
-	grid-template-columns: 25% 25% 25% 25%;
-	padding: 15px;
+	display: flex;
+	padding: 0 4px;
+	list-style: none;
 	align-items: center;
-	justify-items: center;
+	font-family: 'Poppins', sans-serif;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.a-team .player-profile {
+.team-column {
+	padding: 0 4px;
+	justify-content: center;
+}
+
+.player-profile {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+
+.pp-pic {
 	border: 2px solid black;
 	border-radius: 5px;
-	max-height: 250px;
-	max-width: 250px;
+	max-height: 150px;
+	max-width: 150px;
 	align-items: center;
 }
-
-.a-team .player-profile .pp-pic {
-	border: 2px solid black;
-	border-radius: 5px;
-	max-height: 250px;
-	max-width: 250px;
-	align-items: center;
-}
-
 
 .sponsorslogos {
 	font-family: 'Poppins', sans-serif;
