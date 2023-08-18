@@ -199,6 +199,11 @@ ul li:hover ul.dropdown {
 
 .sponsorslogos h3 {
 	color: #76273C;
+	max-width: 200px;
+}
+
+.sponsor-container {
+	width: 200px;
 }
 
 .sponsors-logo {
@@ -220,10 +225,15 @@ ul li:hover ul.dropdown {
 	margin-top: auto;
 }
 
+.item-container {
+	width: 225px;
+}
+
 .footer .social{
 	text-align: center;
 	padding-bottom: 25px;
 	color: white;
+	width: 225px;
 }
 
 .footer .social a{
