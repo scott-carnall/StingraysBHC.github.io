@@ -183,7 +183,7 @@ ul li:hover ul.dropdown {
 	border: 2px solid #76273C;
 	border-radius: 5px;
 	height: 407px;
-	max-width: 260px;
+	width: 260px;
 	align-items: center;
 }
 
