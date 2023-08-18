@@ -165,6 +165,7 @@ ul li:hover ul.dropdown {
 	justify-content: space-around;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 .team-column {
@@ -179,10 +180,10 @@ ul li:hover ul.dropdown {
 }
 
 .pp-pic {
-	border: 2px solid black;
+	border: 2px solid #76273C;
 	border-radius: 5px;
-	max-height: 150px;
-	max-width: 150px;
+	height: 407px;
+	max-width: 260px;
 	align-items: center;
 }
 
