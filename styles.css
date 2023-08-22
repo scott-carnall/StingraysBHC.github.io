@@ -117,6 +117,7 @@ ul li:hover ul.dropdown {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	width: 100%;
 	padding: 15px;
 	font-family: 'Poppins', sans-serif;
@@ -130,6 +131,86 @@ ul li:hover ul.dropdown {
 
 .content .content-logo {
 	padding-top: 15px;
+}
+
+.about-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	flex-wrap: nowrap;
+	gap: 20px;
+	padding: 15px;
+	padding-bottom: 50px;
+}
+
+.about-image {
+	flex: 1;
+	flex-shrink: 3;
+	height: 300px;
+	width: 300px;
+	justify-content: center;
+}
+
+.about-map {
+	width: 1400px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.about-map li {
+	width: 1400px;
+	text-decoration: none;
+}
+
+.about-googlemap {
+	width: 100%;
+	text-decoration: none;
+}
+
+.about-logo {
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.about-container .about-1 {
+	font-size: 24px;
+	color: #76273C;
+	padding-bottom: 10px;
+}
+
+.about-container .about-2 {
+	font-size: 24px;
+	color: #188ABC;
+	padding-bottom: 10px;
+}
+
+.about-container .about-3 {
+	font-size: 24px;
+	color: #76273C;
+}
+
+.about-container .about-schedule{
+	width: 400px;
+	text-align: center;
+}
+
+.about-container .schedule-head {
+	font-size: 32px;
+	font-weight: bold;
+	color: #76273C;
+	justify-content: center;
+}
+
+.about-container .schedule-blue {
+	font-size: 22px;
+	color: #188ABC;
+}
+
+.about-container .schedule-maroon {
+	font-size: 22px;
+	color: #76273C;
 }
 
 .teams{
